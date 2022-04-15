@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4635021B84AD95660B331ACA /* Pods_SultanDreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3599994E9B7062B08C055E64 /* Pods_SultanDreamTests.framework */; };
+		A84D36973A957D1FCFF3E370 /* Pods_SultanDream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAE3DBA57057CEEB053EEF5 /* Pods_SultanDream.framework */; };
+		D1BA9F7F28015D820083A56D /* DreamIdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F7E28015D810083A56D /* DreamIdeaCell.swift */; };
+		D1BA9F8028015D820083A56D /* DreamIdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F7E28015D810083A56D /* DreamIdeaCell.swift */; };
+		D1BA9F8128015D820083A56D /* DreamIdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F7E28015D810083A56D /* DreamIdeaCell.swift */; };
+		D1BA9F8328017FBB0083A56D /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8228017FBA0083A56D /* OptionsVC.swift */; };
+		D1BA9F8428017FBB0083A56D /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8228017FBA0083A56D /* OptionsVC.swift */; };
+		D1BA9F8528017FBB0083A56D /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8228017FBA0083A56D /* OptionsVC.swift */; };
+		D1BA9F8728017FE00083A56D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8628017FE00083A56D /* ProfileVC.swift */; };
+		D1BA9F8828017FE00083A56D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8628017FE00083A56D /* ProfileVC.swift */; };
+		D1BA9F8928017FE00083A56D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8628017FE00083A56D /* ProfileVC.swift */; };
+		D1BA9F8B28017FF10083A56D /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8A28017FF10083A56D /* AboutVC.swift */; };
+		D1BA9F8C28017FF10083A56D /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8A28017FF10083A56D /* AboutVC.swift */; };
+		D1BA9F8D28017FF10083A56D /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8A28017FF10083A56D /* AboutVC.swift */; };
+		D1BA9F8F2801800F0083A56D /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8E2801800F0083A56D /* PasswordVC.swift */; };
+		D1BA9F902801800F0083A56D /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8E2801800F0083A56D /* PasswordVC.swift */; };
+		D1BA9F912801800F0083A56D /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8E2801800F0083A56D /* PasswordVC.swift */; };
+		D1BA9F932801808A0083A56D /* PopularIdeasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F922801808A0083A56D /* PopularIdeasVC.swift */; };
+		D1BA9F942801808A0083A56D /* PopularIdeasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F922801808A0083A56D /* PopularIdeasVC.swift */; };
+		D1BA9F952801808A0083A56D /* PopularIdeasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F922801808A0083A56D /* PopularIdeasVC.swift */; };
+		D1F498052648EEBF00B36125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498042648EEBF00B36125 /* AppDelegate.swift */; };
+		D1F498072648EEBF00B36125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498062648EEBF00B36125 /* SceneDelegate.swift */; };
+		D1F498092648EEBF00B36125 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498082648EEBF00B36125 /* PageVC.swift */; };
+		D1F4980C2648EEBF00B36125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F4980A2648EEBF00B36125 /* Main.storyboard */; };
+		D1F4980E2648EEC200B36125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F4980D2648EEC200B36125 /* Assets.xcassets */; };
+		D1F498112648EEC200B36125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F4980F2648EEC200B36125 /* LaunchScreen.storyboard */; };
+		D1F4981C2648EEC300B36125 /* SultanDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4981B2648EEC300B36125 /* SultanDreamTests.swift */; };
+		D1F498272648EEC300B36125 /* SultanDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498262648EEC300B36125 /* SultanDreamUITests.swift */; };
+		D1F91D1D27EA0096001A1933 /* KeyboardBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D1C27EA0096001A1933 /* KeyboardBindView.swift */; };
+		D1F91D1E27EA0096001A1933 /* KeyboardBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D1C27EA0096001A1933 /* KeyboardBindView.swift */; };
+		D1F91D1F27EA0096001A1933 /* KeyboardBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D1C27EA0096001A1933 /* KeyboardBindView.swift */; };
+		D1F91D2127EA00DE001A1933 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2027EA00DE001A1933 /* LoginVC.swift */; };
+		D1F91D2227EA00DE001A1933 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2027EA00DE001A1933 /* LoginVC.swift */; };
+		D1F91D2327EA00DE001A1933 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2027EA00DE001A1933 /* LoginVC.swift */; };
+		D1F91D2527EA018C001A1933 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2427EA018C001A1933 /* FileService.swift */; };
+		D1F91D2627EA018C001A1933 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2427EA018C001A1933 /* FileService.swift */; };
+		D1F91D2727EA018C001A1933 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2427EA018C001A1933 /* FileService.swift */; };
+		D1F91D2927EA0697001A1933 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2827EA0697001A1933 /* Constants.swift */; };
+		D1F91D2A27EA0697001A1933 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2827EA0697001A1933 /* Constants.swift */; };
+		D1F91D2B27EA0697001A1933 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2827EA0697001A1933 /* Constants.swift */; };
+		D1F91D2D27EA0C57001A1933 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2C27EA0C57001A1933 /* RealmConfig.swift */; };
+		D1F91D2E27EA0C57001A1933 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2C27EA0C57001A1933 /* RealmConfig.swift */; };
+		D1F91D2F27EA0C57001A1933 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2C27EA0C57001A1933 /* RealmConfig.swift */; };
+		D1F91D3227ECB5D8001A1933 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498082648EEBF00B36125 /* PageVC.swift */; };
+		D1F91D3327ECB5DA001A1933 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498082648EEBF00B36125 /* PageVC.swift */; };
+		D1F91D3527ECC357001A1933 /* UploadDreamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3427ECC357001A1933 /* UploadDreamVC.swift */; };
+		D1F91D3627ECC357001A1933 /* UploadDreamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3427ECC357001A1933 /* UploadDreamVC.swift */; };
+		D1F91D3727ECC357001A1933 /* UploadDreamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3427ECC357001A1933 /* UploadDreamVC.swift */; };
+		D1F91D3A27ECE997001A1933 /* PhotoGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3927ECE997001A1933 /* PhotoGalleryVC.swift */; };
+		D1F91D3B27ECE998001A1933 /* PhotoGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3927ECE997001A1933 /* PhotoGalleryVC.swift */; };
+		D1F91D3C27ECE998001A1933 /* PhotoGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3927ECE997001A1933 /* PhotoGalleryVC.swift */; };
+		D1F91D3E27EDD89E001A1933 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3D27EDD89E001A1933 /* PhotoService.swift */; };
+		D1F91D3F27EDD89E001A1933 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3D27EDD89E001A1933 /* PhotoService.swift */; };
+		D1F91D4027EDD89E001A1933 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3D27EDD89E001A1933 /* PhotoService.swift */; };
+		D1F91D4227EDE0B1001A1933 /* PhotoGalleryImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4127EDE0B1001A1933 /* PhotoGalleryImageCell.swift */; };
+		D1F91D4327EDE0B2001A1933 /* PhotoGalleryImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4127EDE0B1001A1933 /* PhotoGalleryImageCell.swift */; };
+		D1F91D4427EDE0B2001A1933 /* PhotoGalleryImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4127EDE0B1001A1933 /* PhotoGalleryImageCell.swift */; };
+		D1F91D4627EDEBEE001A1933 /* RESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4527EDEBED001A1933 /* RESTService.swift */; };
+		D1F91D4727EDEBEE001A1933 /* RESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4527EDEBED001A1933 /* RESTService.swift */; };
+		D1F91D4827EDEBEF001A1933 /* RESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4527EDEBED001A1933 /* RESTService.swift */; };
+		D1F91D4A27EDEC14001A1933 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4927EDEC14001A1933 /* Token.swift */; };
+		D1F91D4B27EDEC14001A1933 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4927EDEC14001A1933 /* Token.swift */; };
+		D1F91D4C27EDEC14001A1933 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4927EDEC14001A1933 /* Token.swift */; };
+		D1F91D4E27EDF0F5001A1933 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4D27EDF0F5001A1933 /* AccountService.swift */; };
+		D1F91D4F27EDF0F5001A1933 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4D27EDF0F5001A1933 /* AccountService.swift */; };
+		D1F91D5027EDF0F5001A1933 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4D27EDF0F5001A1933 /* AccountService.swift */; };
+		D1F91D5227EDF156001A1933 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5127EDF156001A1933 /* RealmService.swift */; };
+		D1F91D5327EDF156001A1933 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5127EDF156001A1933 /* RealmService.swift */; };
+		D1F91D5427EDF156001A1933 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5127EDF156001A1933 /* RealmService.swift */; };
+		D1F91D5627EF640A001A1933 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5527EF640A001A1933 /* Dream.swift */; };
+		D1F91D5727EF640B001A1933 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5527EF640A001A1933 /* Dream.swift */; };
+		D1F91D5827EF640B001A1933 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5527EF640A001A1933 /* Dream.swift */; };
+		D1F91D5A27EF6418001A1933 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5927EF6418001A1933 /* Image.swift */; };
+		D1F91D5B27EF6418001A1933 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5927EF6418001A1933 /* Image.swift */; };
+		D1F91D5C27EF6418001A1933 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5927EF6418001A1933 /* Image.swift */; };
+		D6242A1FAA42571C6918290E /* Pods_SultanDream_SultanDreamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825C97864121BCCCC1F7CD8B /* Pods_SultanDream_SultanDreamUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1F498182648EEC300B36125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1F497F92648EEBF00B36125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F498002648EEBF00B36125;
+			remoteInfo = SultanDream;
+		};
+		D1F498232648EEC300B36125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1F497F92648EEBF00B36125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F498002648EEBF00B36125;
+			remoteInfo = SultanDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002D539517B91EF921D0DA4F /* Pods-SultanDreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SultanDreamTests.debug.xcconfig"; path = "Target Support Files/Pods-SultanDreamTests/Pods-SultanDreamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25BF84A0993FDE555B1CF045 /* Pods-SultanDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SultanDream.release.xcconfig"; path = "Target Support Files/Pods-SultanDream/Pods-SultanDream.release.xcconfig"; sourceTree = "<group>"; };
+		3032FA96D5A742905EC0AA8A /* Pods-SultanDream-SultanDreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SultanDream-SultanDreamUITests.release.xcconfig"; path = "Target Support Files/Pods-SultanDream-SultanDreamUITests/Pods-SultanDream-SultanDreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3599994E9B7062B08C055E64 /* Pods_SultanDreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SultanDreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAE3DBA57057CEEB053EEF5 /* Pods_SultanDream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SultanDream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A29E5841326299E3F09733F /* Pods-SultanDream-SultanDreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SultanDream-SultanDreamUITests.debug.xcconfig"; path = "Target Support Files/Pods-SultanDream-SultanDreamUITests/Pods-SultanDream-SultanDreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		825C97864121BCCCC1F7CD8B /* Pods_SultanDream_SultanDreamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SultanDream_SultanDreamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1A923C674A537088155228 /* Pods-SultanDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SultanDream.debug.xcconfig"; path = "Target Support Files/Pods-SultanDream/Pods-SultanDream.debug.xcconfig"; sourceTree = "<group>"; };
+		C7BFF9F830CB1DF130883EF8 /* Pods-SultanDreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SultanDreamTests.release.xcconfig"; path = "Target Support Files/Pods-SultanDreamTests/Pods-SultanDreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1BA9F7E28015D810083A56D /* DreamIdeaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamIdeaCell.swift; sourceTree = "<group>"; };
+		D1BA9F8228017FBA0083A56D /* OptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsVC.swift; sourceTree = "<group>"; };
+		D1BA9F8628017FE00083A56D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		D1BA9F8A28017FF10083A56D /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		D1BA9F8E2801800F0083A56D /* PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
+		D1BA9F922801808A0083A56D /* PopularIdeasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularIdeasVC.swift; sourceTree = "<group>"; };
+		D1F498012648EEBF00B36125 /* SultanDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SultanDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F498042648EEBF00B36125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1F498062648EEBF00B36125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1F498082648EEBF00B36125 /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
+		D1F4980B2648EEBF00B36125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1F4980D2648EEC200B36125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1F498102648EEC200B36125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1F498122648EEC200B36125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F498172648EEC300B36125 /* SultanDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SultanDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F4981B2648EEC300B36125 /* SultanDreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SultanDreamTests.swift; sourceTree = "<group>"; };
+		D1F4981D2648EEC300B36125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F498222648EEC300B36125 /* SultanDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SultanDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F498262648EEC300B36125 /* SultanDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SultanDreamUITests.swift; sourceTree = "<group>"; };
+		D1F498282648EEC300B36125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F91D1C27EA0096001A1933 /* KeyboardBindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBindView.swift; sourceTree = "<group>"; };
+		D1F91D2027EA00DE001A1933 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D1F91D2427EA018C001A1933 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		D1F91D2827EA0697001A1933 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D1F91D2C27EA0C57001A1933 /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		D1F91D3427ECC357001A1933 /* UploadDreamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDreamVC.swift; sourceTree = "<group>"; };
+		D1F91D3927ECE997001A1933 /* PhotoGalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryVC.swift; sourceTree = "<group>"; };
+		D1F91D3D27EDD89E001A1933 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		D1F91D4127EDE0B1001A1933 /* PhotoGalleryImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryImageCell.swift; sourceTree = "<group>"; };
+		D1F91D4527EDEBED001A1933 /* RESTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTService.swift; sourceTree = "<group>"; };
+		D1F91D4927EDEC14001A1933 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		D1F91D4D27EDF0F5001A1933 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		D1F91D5127EDF156001A1933 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		D1F91D5527EF640A001A1933 /* Dream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = "<group>"; };
+		D1F91D5927EF6418001A1933 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1F497FE2648EEBF00B36125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84D36973A957D1FCFF3E370 /* Pods_SultanDream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F498142648EEC300B36125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4635021B84AD95660B331ACA /* Pods_SultanDreamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F4981F2648EEC300B36125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6242A1FAA42571C6918290E /* Pods_SultanDream_SultanDreamUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C026FFB4DA6A035CE3777DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A923C674A537088155228 /* Pods-SultanDream.debug.xcconfig */,
+				25BF84A0993FDE555B1CF045 /* Pods-SultanDream.release.xcconfig */,
+				7A29E5841326299E3F09733F /* Pods-SultanDream-SultanDreamUITests.debug.xcconfig */,
+				3032FA96D5A742905EC0AA8A /* Pods-SultanDream-SultanDreamUITests.release.xcconfig */,
+				002D539517B91EF921D0DA4F /* Pods-SultanDreamTests.debug.xcconfig */,
+				C7BFF9F830CB1DF130883EF8 /* Pods-SultanDreamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B12664F53E5A0A7B945917A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AAE3DBA57057CEEB053EEF5 /* Pods_SultanDream.framework */,
+				825C97864121BCCCC1F7CD8B /* Pods_SultanDream_SultanDreamUITests.framework */,
+				3599994E9B7062B08C055E64 /* Pods_SultanDreamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D13C658627F6E73800898734 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D1F91D2C27EA0C57001A1933 /* RealmConfig.swift */,
+				D1F91D2827EA0697001A1933 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D13C658727F6E76600898734 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1F91D4127EDE0B1001A1933 /* PhotoGalleryImageCell.swift */,
+				D1F91D1C27EA0096001A1933 /* KeyboardBindView.swift */,
+				D1BA9F7E28015D810083A56D /* DreamIdeaCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1F497F82648EEBF00B36125 = {
+			isa = PBXGroup;
+			children = (
+				D1F498032648EEBF00B36125 /* SultanDream */,
+				D1F4981A2648EEC300B36125 /* SultanDreamTests */,
+				D1F498252648EEC300B36125 /* SultanDreamUITests */,
+				D1F498022648EEBF00B36125 /* Products */,
+				6C026FFB4DA6A035CE3777DD /* Pods */,
+				B12664F53E5A0A7B945917A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F498022648EEBF00B36125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1F498012648EEBF00B36125 /* SultanDream.app */,
+				D1F498172648EEC300B36125 /* SultanDreamTests.xctest */,
+				D1F498222648EEC300B36125 /* SultanDreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1F498032648EEBF00B36125 /* SultanDream */ = {
+			isa = PBXGroup;
+			children = (
+				D13C658727F6E76600898734 /* Views */,
+				D13C658627F6E73800898734 /* Utilities */,
+				D1F91D3827ECDDDB001A1933 /* ViewControllers */,
+				D1F91D3127ECB5CD001A1933 /* Services */,
+				D1F91D3027EB6D4E001A1933 /* Models */,
+				D1F498042648EEBF00B36125 /* AppDelegate.swift */,
+				D1F498062648EEBF00B36125 /* SceneDelegate.swift */,
+				D1F4980A2648EEBF00B36125 /* Main.storyboard */,
+				D1F4980D2648EEC200B36125 /* Assets.xcassets */,
+				D1F4980F2648EEC200B36125 /* LaunchScreen.storyboard */,
+				D1F498122648EEC200B36125 /* Info.plist */,
+			);
+			path = SultanDream;
+			sourceTree = "<group>";
+		};
+		D1F4981A2648EEC300B36125 /* SultanDreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1F4981B2648EEC300B36125 /* SultanDreamTests.swift */,
+				D1F4981D2648EEC300B36125 /* Info.plist */,
+			);
+			path = SultanDreamTests;
+			sourceTree = "<group>";
+		};
+		D1F498252648EEC300B36125 /* SultanDreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1F498262648EEC300B36125 /* SultanDreamUITests.swift */,
+				D1F498282648EEC300B36125 /* Info.plist */,
+			);
+			path = SultanDreamUITests;
+			sourceTree = "<group>";
+		};
+		D1F91D3027EB6D4E001A1933 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1F91D4927EDEC14001A1933 /* Token.swift */,
+				D1F91D5527EF640A001A1933 /* Dream.swift */,
+				D1F91D5927EF6418001A1933 /* Image.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D1F91D3127ECB5CD001A1933 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D1F91D3D27EDD89E001A1933 /* PhotoService.swift */,
+				D1F91D2427EA018C001A1933 /* FileService.swift */,
+				D1F91D4527EDEBED001A1933 /* RESTService.swift */,
+				D1F91D5127EDF156001A1933 /* RealmService.swift */,
+				D1F91D4D27EDF0F5001A1933 /* AccountService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D1F91D3827ECDDDB001A1933 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1F498082648EEBF00B36125 /* PageVC.swift */,
+				D1F91D2027EA00DE001A1933 /* LoginVC.swift */,
+				D1F91D3427ECC357001A1933 /* UploadDreamVC.swift */,
+				D1F91D3927ECE997001A1933 /* PhotoGalleryVC.swift */,
+				D1BA9F8228017FBA0083A56D /* OptionsVC.swift */,
+				D1BA9F8628017FE00083A56D /* ProfileVC.swift */,
+				D1BA9F8A28017FF10083A56D /* AboutVC.swift */,
+				D1BA9F8E2801800F0083A56D /* PasswordVC.swift */,
+				D1BA9F922801808A0083A56D /* PopularIdeasVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1F498002648EEBF00B36125 /* SultanDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F4982B2648EEC300B36125 /* Build configuration list for PBXNativeTarget "SultanDream" */;
+			buildPhases = (
+				EB07110772751DB6C8DF5EF6 /* [CP] Check Pods Manifest.lock */,
+				D1F497FD2648EEBF00B36125 /* Sources */,
+				D1F497FE2648EEBF00B36125 /* Frameworks */,
+				D1F497FF2648EEBF00B36125 /* Resources */,
+				B007EC767D3386521960D30F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SultanDream;
+			productName = SultanDream;
+			productReference = D1F498012648EEBF00B36125 /* SultanDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1F498162648EEC300B36125 /* SultanDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F4982E2648EEC300B36125 /* Build configuration list for PBXNativeTarget "SultanDreamTests" */;
+			buildPhases = (
+				CFCD39B00A04680F4D495548 /* [CP] Check Pods Manifest.lock */,
+				D1F498132648EEC300B36125 /* Sources */,
+				D1F498142648EEC300B36125 /* Frameworks */,
+				D1F498152648EEC300B36125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1F498192648EEC300B36125 /* PBXTargetDependency */,
+			);
+			name = SultanDreamTests;
+			productName = SultanDreamTests;
+			productReference = D1F498172648EEC300B36125 /* SultanDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1F498212648EEC300B36125 /* SultanDreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F498312648EEC300B36125 /* Build configuration list for PBXNativeTarget "SultanDreamUITests" */;
+			buildPhases = (
+				D97CD5D5B29D2054C4EF26FA /* [CP] Check Pods Manifest.lock */,
+				D1F4981E2648EEC300B36125 /* Sources */,
+				D1F4981F2648EEC300B36125 /* Frameworks */,
+				D1F498202648EEC300B36125 /* Resources */,
+				2FF5D2E39639127CEBA55046 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1F498242648EEC300B36125 /* PBXTargetDependency */,
+			);
+			name = SultanDreamUITests;
+			productName = SultanDreamUITests;
+			productReference = D1F498222648EEC300B36125 /* SultanDreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1F497F92648EEBF00B36125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D1F498002648EEBF00B36125 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D1F498162648EEC300B36125 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D1F498002648EEBF00B36125;
+					};
+					D1F498212648EEC300B36125 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D1F498002648EEBF00B36125;
+					};
+				};
+			};
+			buildConfigurationList = D1F497FC2648EEBF00B36125 /* Build configuration list for PBXProject "SultanDream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1F497F82648EEBF00B36125;
+			productRefGroup = D1F498022648EEBF00B36125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1F498002648EEBF00B36125 /* SultanDream */,
+				D1F498162648EEC300B36125 /* SultanDreamTests */,
+				D1F498212648EEC300B36125 /* SultanDreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1F497FF2648EEBF00B36125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F498112648EEC200B36125 /* LaunchScreen.storyboard in Resources */,
+				D1F4980E2648EEC200B36125 /* Assets.xcassets in Resources */,
+				D1F4980C2648EEBF00B36125 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F498152648EEC300B36125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F498202648EEC300B36125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FF5D2E39639127CEBA55046 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SultanDream-SultanDreamUITests/Pods-SultanDream-SultanDreamUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SultanDream-SultanDreamUITests/Pods-SultanDream-SultanDreamUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SultanDream-SultanDreamUITests/Pods-SultanDream-SultanDreamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B007EC767D3386521960D30F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SultanDream/Pods-SultanDream-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SultanDream/Pods-SultanDream-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SultanDream/Pods-SultanDream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCD39B00A04680F4D495548 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SultanDreamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D97CD5D5B29D2054C4EF26FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SultanDream-SultanDreamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB07110772751DB6C8DF5EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SultanDream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1F497FD2648EEBF00B36125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F498092648EEBF00B36125 /* PageVC.swift in Sources */,
+				D1F91D5A27EF6418001A1933 /* Image.swift in Sources */,
+				D1F91D4A27EDEC14001A1933 /* Token.swift in Sources */,
+				D1BA9F8F2801800F0083A56D /* PasswordVC.swift in Sources */,
+				D1F91D3E27EDD89E001A1933 /* PhotoService.swift in Sources */,
+				D1BA9F7F28015D820083A56D /* DreamIdeaCell.swift in Sources */,
+				D1F91D4E27EDF0F5001A1933 /* AccountService.swift in Sources */,
+				D1F498052648EEBF00B36125 /* AppDelegate.swift in Sources */,
+				D1F91D5627EF640A001A1933 /* Dream.swift in Sources */,
+				D1BA9F932801808A0083A56D /* PopularIdeasVC.swift in Sources */,
+				D1F91D3A27ECE997001A1933 /* PhotoGalleryVC.swift in Sources */,
+				D1BA9F8728017FE00083A56D /* ProfileVC.swift in Sources */,
+				D1F91D1D27EA0096001A1933 /* KeyboardBindView.swift in Sources */,
+				D1F91D2D27EA0C57001A1933 /* RealmConfig.swift in Sources */,
+				D1F498072648EEBF00B36125 /* SceneDelegate.swift in Sources */,
+				D1F91D2927EA0697001A1933 /* Constants.swift in Sources */,
+				D1F91D2127EA00DE001A1933 /* LoginVC.swift in Sources */,
+				D1F91D4627EDEBEE001A1933 /* RESTService.swift in Sources */,
+				D1BA9F8328017FBB0083A56D /* OptionsVC.swift in Sources */,
+				D1F91D2527EA018C001A1933 /* FileService.swift in Sources */,
+				D1F91D3527ECC357001A1933 /* UploadDreamVC.swift in Sources */,
+				D1F91D4227EDE0B1001A1933 /* PhotoGalleryImageCell.swift in Sources */,
+				D1BA9F8B28017FF10083A56D /* AboutVC.swift in Sources */,
+				D1F91D5227EDF156001A1933 /* RealmService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F498132648EEC300B36125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BA9F8828017FE00083A56D /* ProfileVC.swift in Sources */,
+				D1F91D3F27EDD89E001A1933 /* PhotoService.swift in Sources */,
+				D1F91D2A27EA0697001A1933 /* Constants.swift in Sources */,
+				D1BA9F902801800F0083A56D /* PasswordVC.swift in Sources */,
+				D1F91D1E27EA0096001A1933 /* KeyboardBindView.swift in Sources */,
+				D1F91D2627EA018C001A1933 /* FileService.swift in Sources */,
+				D1F91D5327EDF156001A1933 /* RealmService.swift in Sources */,
+				D1F91D3227ECB5D8001A1933 /* PageVC.swift in Sources */,
+				D1F4981C2648EEC300B36125 /* SultanDreamTests.swift in Sources */,
+				D1BA9F942801808A0083A56D /* PopularIdeasVC.swift in Sources */,
+				D1F91D4327EDE0B2001A1933 /* PhotoGalleryImageCell.swift in Sources */,
+				D1F91D3627ECC357001A1933 /* UploadDreamVC.swift in Sources */,
+				D1BA9F8428017FBB0083A56D /* OptionsVC.swift in Sources */,
+				D1F91D3B27ECE998001A1933 /* PhotoGalleryVC.swift in Sources */,
+				D1F91D2227EA00DE001A1933 /* LoginVC.swift in Sources */,
+				D1F91D5B27EF6418001A1933 /* Image.swift in Sources */,
+				D1BA9F8C28017FF10083A56D /* AboutVC.swift in Sources */,
+				D1F91D2E27EA0C57001A1933 /* RealmConfig.swift in Sources */,
+				D1F91D4F27EDF0F5001A1933 /* AccountService.swift in Sources */,
+				D1F91D4B27EDEC14001A1933 /* Token.swift in Sources */,
+				D1F91D4727EDEBEE001A1933 /* RESTService.swift in Sources */,
+				D1BA9F8028015D820083A56D /* DreamIdeaCell.swift in Sources */,
+				D1F91D5727EF640B001A1933 /* Dream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F4981E2648EEC300B36125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BA9F8928017FE00083A56D /* ProfileVC.swift in Sources */,
+				D1F91D4027EDD89E001A1933 /* PhotoService.swift in Sources */,
+				D1F91D2B27EA0697001A1933 /* Constants.swift in Sources */,
+				D1BA9F912801800F0083A56D /* PasswordVC.swift in Sources */,
+				D1F91D1F27EA0096001A1933 /* KeyboardBindView.swift in Sources */,
+				D1F91D2727EA018C001A1933 /* FileService.swift in Sources */,
+				D1F91D5427EDF156001A1933 /* RealmService.swift in Sources */,
+				D1F91D3327ECB5DA001A1933 /* PageVC.swift in Sources */,
+				D1F498272648EEC300B36125 /* SultanDreamUITests.swift in Sources */,
+				D1BA9F952801808A0083A56D /* PopularIdeasVC.swift in Sources */,
+				D1F91D4427EDE0B2001A1933 /* PhotoGalleryImageCell.swift in Sources */,
+				D1F91D3727ECC357001A1933 /* UploadDreamVC.swift in Sources */,
+				D1BA9F8528017FBB0083A56D /* OptionsVC.swift in Sources */,
+				D1F91D3C27ECE998001A1933 /* PhotoGalleryVC.swift in Sources */,
+				D1F91D2327EA00DE001A1933 /* LoginVC.swift in Sources */,
+				D1F91D5C27EF6418001A1933 /* Image.swift in Sources */,
+				D1BA9F8D28017FF10083A56D /* AboutVC.swift in Sources */,
+				D1F91D2F27EA0C57001A1933 /* RealmConfig.swift in Sources */,
+				D1F91D5027EDF0F5001A1933 /* AccountService.swift in Sources */,
+				D1F91D4C27EDEC14001A1933 /* Token.swift in Sources */,
+				D1F91D4827EDEBEF001A1933 /* RESTService.swift in Sources */,
+				D1BA9F8128015D820083A56D /* DreamIdeaCell.swift in Sources */,
+				D1F91D5827EF640B001A1933 /* Dream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1F498192648EEC300B36125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1F498002648EEBF00B36125 /* SultanDream */;
+			targetProxy = D1F498182648EEC300B36125 /* PBXContainerItemProxy */;
+		};
+		D1F498242648EEC300B36125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1F498002648EEBF00B36125 /* SultanDream */;
+			targetProxy = D1F498232648EEC300B36125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1F4980A2648EEBF00B36125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F4980B2648EEBF00B36125 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1F4980F2648EEC200B36125 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F498102648EEC200B36125 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1F498292648EEC300B36125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1F4982A2648EEC300B36125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1F4982C2648EEC300B36125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1A923C674A537088155228 /* Pods-SultanDream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78TPJ6Q7L6;
+				INFOPLIST_FILE = SultanDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sultankarybaev.DreamWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D1F4982D2648EEC300B36125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BF84A0993FDE555B1CF045 /* Pods-SultanDream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78TPJ6Q7L6;
+				INFOPLIST_FILE = SultanDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sultankarybaev.DreamWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D1F4982F2648EEC300B36125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002D539517B91EF921D0DA4F /* Pods-SultanDreamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78TPJ6Q7L6;
+				INFOPLIST_FILE = SultanDreamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sultankarybaev.SultanDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SultanDream.app/SultanDream";
+			};
+			name = Debug;
+		};
+		D1F498302648EEC300B36125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BFF9F830CB1DF130883EF8 /* Pods-SultanDreamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78TPJ6Q7L6;
+				INFOPLIST_FILE = SultanDreamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sultankarybaev.SultanDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SultanDream.app/SultanDream";
+			};
+			name = Release;
+		};
+		D1F498322648EEC300B36125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A29E5841326299E3F09733F /* Pods-SultanDream-SultanDreamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78TPJ6Q7L6;
+				INFOPLIST_FILE = SultanDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sultankarybaev.SultanDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SultanDream;
+			};
+			name = Debug;
+		};
+		D1F498332648EEC300B36125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3032FA96D5A742905EC0AA8A /* Pods-SultanDream-SultanDreamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78TPJ6Q7L6;
+				INFOPLIST_FILE = SultanDreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sultankarybaev.SultanDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SultanDream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1F497FC2648EEBF00B36125 /* Build configuration list for PBXProject "SultanDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F498292648EEC300B36125 /* Debug */,
+				D1F4982A2648EEC300B36125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F4982B2648EEC300B36125 /* Build configuration list for PBXNativeTarget "SultanDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F4982C2648EEC300B36125 /* Debug */,
+				D1F4982D2648EEC300B36125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F4982E2648EEC300B36125 /* Build configuration list for PBXNativeTarget "SultanDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F4982F2648EEC300B36125 /* Debug */,
+				D1F498302648EEC300B36125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F498312648EEC300B36125 /* Build configuration list for PBXNativeTarget "SultanDreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F498322648EEC300B36125 /* Debug */,
+				D1F498332648EEC300B36125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1F497F92648EEBF00B36125 /* Project object */;
+}
