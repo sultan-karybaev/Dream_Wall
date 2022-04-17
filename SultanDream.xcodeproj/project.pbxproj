@@ -9,24 +9,14 @@
 /* Begin PBXBuildFile section */
 		4635021B84AD95660B331ACA /* Pods_SultanDreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3599994E9B7062B08C055E64 /* Pods_SultanDreamTests.framework */; };
 		A84D36973A957D1FCFF3E370 /* Pods_SultanDream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAE3DBA57057CEEB053EEF5 /* Pods_SultanDream.framework */; };
+		D146620E280B2E1300152173 /* TextFieldValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D146620D280B2E1300152173 /* TextFieldValidationService.swift */; };
+		D1637F7E280ABD5F001D9474 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5527EF640A001A1933 /* Dream.swift */; };
 		D1BA9F7F28015D820083A56D /* DreamIdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F7E28015D810083A56D /* DreamIdeaCell.swift */; };
-		D1BA9F8028015D820083A56D /* DreamIdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F7E28015D810083A56D /* DreamIdeaCell.swift */; };
-		D1BA9F8128015D820083A56D /* DreamIdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F7E28015D810083A56D /* DreamIdeaCell.swift */; };
 		D1BA9F8328017FBB0083A56D /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8228017FBA0083A56D /* OptionsVC.swift */; };
-		D1BA9F8428017FBB0083A56D /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8228017FBA0083A56D /* OptionsVC.swift */; };
-		D1BA9F8528017FBB0083A56D /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8228017FBA0083A56D /* OptionsVC.swift */; };
 		D1BA9F8728017FE00083A56D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8628017FE00083A56D /* ProfileVC.swift */; };
-		D1BA9F8828017FE00083A56D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8628017FE00083A56D /* ProfileVC.swift */; };
-		D1BA9F8928017FE00083A56D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8628017FE00083A56D /* ProfileVC.swift */; };
 		D1BA9F8B28017FF10083A56D /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8A28017FF10083A56D /* AboutVC.swift */; };
-		D1BA9F8C28017FF10083A56D /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8A28017FF10083A56D /* AboutVC.swift */; };
-		D1BA9F8D28017FF10083A56D /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8A28017FF10083A56D /* AboutVC.swift */; };
 		D1BA9F8F2801800F0083A56D /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8E2801800F0083A56D /* PasswordVC.swift */; };
-		D1BA9F902801800F0083A56D /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8E2801800F0083A56D /* PasswordVC.swift */; };
-		D1BA9F912801800F0083A56D /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F8E2801800F0083A56D /* PasswordVC.swift */; };
 		D1BA9F932801808A0083A56D /* PopularIdeasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F922801808A0083A56D /* PopularIdeasVC.swift */; };
-		D1BA9F942801808A0083A56D /* PopularIdeasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F922801808A0083A56D /* PopularIdeasVC.swift */; };
-		D1BA9F952801808A0083A56D /* PopularIdeasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA9F922801808A0083A56D /* PopularIdeasVC.swift */; };
 		D1F498052648EEBF00B36125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498042648EEBF00B36125 /* AppDelegate.swift */; };
 		D1F498072648EEBF00B36125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498062648EEBF00B36125 /* SceneDelegate.swift */; };
 		D1F498092648EEBF00B36125 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498082648EEBF00B36125 /* PageVC.swift */; };
@@ -36,52 +26,19 @@
 		D1F4981C2648EEC300B36125 /* SultanDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4981B2648EEC300B36125 /* SultanDreamTests.swift */; };
 		D1F498272648EEC300B36125 /* SultanDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498262648EEC300B36125 /* SultanDreamUITests.swift */; };
 		D1F91D1D27EA0096001A1933 /* KeyboardBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D1C27EA0096001A1933 /* KeyboardBindView.swift */; };
-		D1F91D1E27EA0096001A1933 /* KeyboardBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D1C27EA0096001A1933 /* KeyboardBindView.swift */; };
-		D1F91D1F27EA0096001A1933 /* KeyboardBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D1C27EA0096001A1933 /* KeyboardBindView.swift */; };
 		D1F91D2127EA00DE001A1933 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2027EA00DE001A1933 /* LoginVC.swift */; };
-		D1F91D2227EA00DE001A1933 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2027EA00DE001A1933 /* LoginVC.swift */; };
-		D1F91D2327EA00DE001A1933 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2027EA00DE001A1933 /* LoginVC.swift */; };
 		D1F91D2527EA018C001A1933 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2427EA018C001A1933 /* FileService.swift */; };
-		D1F91D2627EA018C001A1933 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2427EA018C001A1933 /* FileService.swift */; };
-		D1F91D2727EA018C001A1933 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2427EA018C001A1933 /* FileService.swift */; };
 		D1F91D2927EA0697001A1933 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2827EA0697001A1933 /* Constants.swift */; };
-		D1F91D2A27EA0697001A1933 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2827EA0697001A1933 /* Constants.swift */; };
-		D1F91D2B27EA0697001A1933 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2827EA0697001A1933 /* Constants.swift */; };
 		D1F91D2D27EA0C57001A1933 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2C27EA0C57001A1933 /* RealmConfig.swift */; };
-		D1F91D2E27EA0C57001A1933 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2C27EA0C57001A1933 /* RealmConfig.swift */; };
-		D1F91D2F27EA0C57001A1933 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D2C27EA0C57001A1933 /* RealmConfig.swift */; };
-		D1F91D3227ECB5D8001A1933 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498082648EEBF00B36125 /* PageVC.swift */; };
-		D1F91D3327ECB5DA001A1933 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F498082648EEBF00B36125 /* PageVC.swift */; };
 		D1F91D3527ECC357001A1933 /* UploadDreamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3427ECC357001A1933 /* UploadDreamVC.swift */; };
-		D1F91D3627ECC357001A1933 /* UploadDreamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3427ECC357001A1933 /* UploadDreamVC.swift */; };
-		D1F91D3727ECC357001A1933 /* UploadDreamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3427ECC357001A1933 /* UploadDreamVC.swift */; };
 		D1F91D3A27ECE997001A1933 /* PhotoGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3927ECE997001A1933 /* PhotoGalleryVC.swift */; };
-		D1F91D3B27ECE998001A1933 /* PhotoGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3927ECE997001A1933 /* PhotoGalleryVC.swift */; };
-		D1F91D3C27ECE998001A1933 /* PhotoGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3927ECE997001A1933 /* PhotoGalleryVC.swift */; };
 		D1F91D3E27EDD89E001A1933 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3D27EDD89E001A1933 /* PhotoService.swift */; };
-		D1F91D3F27EDD89E001A1933 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3D27EDD89E001A1933 /* PhotoService.swift */; };
-		D1F91D4027EDD89E001A1933 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D3D27EDD89E001A1933 /* PhotoService.swift */; };
 		D1F91D4227EDE0B1001A1933 /* PhotoGalleryImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4127EDE0B1001A1933 /* PhotoGalleryImageCell.swift */; };
-		D1F91D4327EDE0B2001A1933 /* PhotoGalleryImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4127EDE0B1001A1933 /* PhotoGalleryImageCell.swift */; };
-		D1F91D4427EDE0B2001A1933 /* PhotoGalleryImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4127EDE0B1001A1933 /* PhotoGalleryImageCell.swift */; };
 		D1F91D4627EDEBEE001A1933 /* RESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4527EDEBED001A1933 /* RESTService.swift */; };
-		D1F91D4727EDEBEE001A1933 /* RESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4527EDEBED001A1933 /* RESTService.swift */; };
-		D1F91D4827EDEBEF001A1933 /* RESTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4527EDEBED001A1933 /* RESTService.swift */; };
 		D1F91D4A27EDEC14001A1933 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4927EDEC14001A1933 /* Token.swift */; };
-		D1F91D4B27EDEC14001A1933 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4927EDEC14001A1933 /* Token.swift */; };
-		D1F91D4C27EDEC14001A1933 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4927EDEC14001A1933 /* Token.swift */; };
 		D1F91D4E27EDF0F5001A1933 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4D27EDF0F5001A1933 /* AccountService.swift */; };
-		D1F91D4F27EDF0F5001A1933 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4D27EDF0F5001A1933 /* AccountService.swift */; };
-		D1F91D5027EDF0F5001A1933 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D4D27EDF0F5001A1933 /* AccountService.swift */; };
 		D1F91D5227EDF156001A1933 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5127EDF156001A1933 /* RealmService.swift */; };
-		D1F91D5327EDF156001A1933 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5127EDF156001A1933 /* RealmService.swift */; };
-		D1F91D5427EDF156001A1933 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5127EDF156001A1933 /* RealmService.swift */; };
-		D1F91D5627EF640A001A1933 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5527EF640A001A1933 /* Dream.swift */; };
-		D1F91D5727EF640B001A1933 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5527EF640A001A1933 /* Dream.swift */; };
-		D1F91D5827EF640B001A1933 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5527EF640A001A1933 /* Dream.swift */; };
 		D1F91D5A27EF6418001A1933 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5927EF6418001A1933 /* Image.swift */; };
-		D1F91D5B27EF6418001A1933 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5927EF6418001A1933 /* Image.swift */; };
-		D1F91D5C27EF6418001A1933 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D5927EF6418001A1933 /* Image.swift */; };
 		D6242A1FAA42571C6918290E /* Pods_SultanDream_SultanDreamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825C97864121BCCCC1F7CD8B /* Pods_SultanDream_SultanDreamUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +69,7 @@
 		825C97864121BCCCC1F7CD8B /* Pods_SultanDream_SultanDreamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SultanDream_SultanDreamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1A923C674A537088155228 /* Pods-SultanDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SultanDream.debug.xcconfig"; path = "Target Support Files/Pods-SultanDream/Pods-SultanDream.debug.xcconfig"; sourceTree = "<group>"; };
 		C7BFF9F830CB1DF130883EF8 /* Pods-SultanDreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SultanDreamTests.release.xcconfig"; path = "Target Support Files/Pods-SultanDreamTests/Pods-SultanDreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		D146620D280B2E1300152173 /* TextFieldValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidationService.swift; sourceTree = "<group>"; };
 		D1BA9F7E28015D810083A56D /* DreamIdeaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamIdeaCell.swift; sourceTree = "<group>"; };
 		D1BA9F8228017FBA0083A56D /* OptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsVC.swift; sourceTree = "<group>"; };
 		D1BA9F8628017FE00083A56D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -295,6 +253,7 @@
 				D1F91D4527EDEBED001A1933 /* RESTService.swift */,
 				D1F91D5127EDF156001A1933 /* RealmService.swift */,
 				D1F91D4D27EDF0F5001A1933 /* AccountService.swift */,
+				D146620D280B2E1300152173 /* TextFieldValidationService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -561,11 +520,11 @@
 				D1BA9F7F28015D820083A56D /* DreamIdeaCell.swift in Sources */,
 				D1F91D4E27EDF0F5001A1933 /* AccountService.swift in Sources */,
 				D1F498052648EEBF00B36125 /* AppDelegate.swift in Sources */,
-				D1F91D5627EF640A001A1933 /* Dream.swift in Sources */,
 				D1BA9F932801808A0083A56D /* PopularIdeasVC.swift in Sources */,
 				D1F91D3A27ECE997001A1933 /* PhotoGalleryVC.swift in Sources */,
 				D1BA9F8728017FE00083A56D /* ProfileVC.swift in Sources */,
 				D1F91D1D27EA0096001A1933 /* KeyboardBindView.swift in Sources */,
+				D146620E280B2E1300152173 /* TextFieldValidationService.swift in Sources */,
 				D1F91D2D27EA0C57001A1933 /* RealmConfig.swift in Sources */,
 				D1F498072648EEBF00B36125 /* SceneDelegate.swift in Sources */,
 				D1F91D2927EA0697001A1933 /* Constants.swift in Sources */,
@@ -577,6 +536,7 @@
 				D1F91D4227EDE0B1001A1933 /* PhotoGalleryImageCell.swift in Sources */,
 				D1BA9F8B28017FF10083A56D /* AboutVC.swift in Sources */,
 				D1F91D5227EDF156001A1933 /* RealmService.swift in Sources */,
+				D1637F7E280ABD5F001D9474 /* Dream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,29 +544,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1BA9F8828017FE00083A56D /* ProfileVC.swift in Sources */,
-				D1F91D3F27EDD89E001A1933 /* PhotoService.swift in Sources */,
-				D1F91D2A27EA0697001A1933 /* Constants.swift in Sources */,
-				D1BA9F902801800F0083A56D /* PasswordVC.swift in Sources */,
-				D1F91D1E27EA0096001A1933 /* KeyboardBindView.swift in Sources */,
-				D1F91D2627EA018C001A1933 /* FileService.swift in Sources */,
-				D1F91D5327EDF156001A1933 /* RealmService.swift in Sources */,
-				D1F91D3227ECB5D8001A1933 /* PageVC.swift in Sources */,
 				D1F4981C2648EEC300B36125 /* SultanDreamTests.swift in Sources */,
-				D1BA9F942801808A0083A56D /* PopularIdeasVC.swift in Sources */,
-				D1F91D4327EDE0B2001A1933 /* PhotoGalleryImageCell.swift in Sources */,
-				D1F91D3627ECC357001A1933 /* UploadDreamVC.swift in Sources */,
-				D1BA9F8428017FBB0083A56D /* OptionsVC.swift in Sources */,
-				D1F91D3B27ECE998001A1933 /* PhotoGalleryVC.swift in Sources */,
-				D1F91D2227EA00DE001A1933 /* LoginVC.swift in Sources */,
-				D1F91D5B27EF6418001A1933 /* Image.swift in Sources */,
-				D1BA9F8C28017FF10083A56D /* AboutVC.swift in Sources */,
-				D1F91D2E27EA0C57001A1933 /* RealmConfig.swift in Sources */,
-				D1F91D4F27EDF0F5001A1933 /* AccountService.swift in Sources */,
-				D1F91D4B27EDEC14001A1933 /* Token.swift in Sources */,
-				D1F91D4727EDEBEE001A1933 /* RESTService.swift in Sources */,
-				D1BA9F8028015D820083A56D /* DreamIdeaCell.swift in Sources */,
-				D1F91D5727EF640B001A1933 /* Dream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,29 +552,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1BA9F8928017FE00083A56D /* ProfileVC.swift in Sources */,
-				D1F91D4027EDD89E001A1933 /* PhotoService.swift in Sources */,
-				D1F91D2B27EA0697001A1933 /* Constants.swift in Sources */,
-				D1BA9F912801800F0083A56D /* PasswordVC.swift in Sources */,
-				D1F91D1F27EA0096001A1933 /* KeyboardBindView.swift in Sources */,
-				D1F91D2727EA018C001A1933 /* FileService.swift in Sources */,
-				D1F91D5427EDF156001A1933 /* RealmService.swift in Sources */,
-				D1F91D3327ECB5DA001A1933 /* PageVC.swift in Sources */,
 				D1F498272648EEC300B36125 /* SultanDreamUITests.swift in Sources */,
-				D1BA9F952801808A0083A56D /* PopularIdeasVC.swift in Sources */,
-				D1F91D4427EDE0B2001A1933 /* PhotoGalleryImageCell.swift in Sources */,
-				D1F91D3727ECC357001A1933 /* UploadDreamVC.swift in Sources */,
-				D1BA9F8528017FBB0083A56D /* OptionsVC.swift in Sources */,
-				D1F91D3C27ECE998001A1933 /* PhotoGalleryVC.swift in Sources */,
-				D1F91D2327EA00DE001A1933 /* LoginVC.swift in Sources */,
-				D1F91D5C27EF6418001A1933 /* Image.swift in Sources */,
-				D1BA9F8D28017FF10083A56D /* AboutVC.swift in Sources */,
-				D1F91D2F27EA0C57001A1933 /* RealmConfig.swift in Sources */,
-				D1F91D5027EDF0F5001A1933 /* AccountService.swift in Sources */,
-				D1F91D4C27EDEC14001A1933 /* Token.swift in Sources */,
-				D1F91D4827EDEBEF001A1933 /* RESTService.swift in Sources */,
-				D1BA9F8128015D820083A56D /* DreamIdeaCell.swift in Sources */,
-				D1F91D5827EF640B001A1933 /* Dream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

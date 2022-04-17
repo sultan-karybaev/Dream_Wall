@@ -41,7 +41,7 @@ class PageVC: UIViewController {
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationController?.view.backgroundColor = .clear
         self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.6)
-        UIApplication.statusBarUIView?.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.6)
+        //UIApplication.statusBarUIView?.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.6)
         self.topSegmentControl = UISegmentedControl(frame: CGRect(x: 0, y: 0, width: 180, height: 30))
         self.topSegmentControl.insertSegment(withTitle: "1", at: 0, animated: false)
         self.topSegmentControl.insertSegment(withTitle: "2", at: 1, animated: false)
@@ -85,7 +85,7 @@ class PageVC: UIViewController {
 //        self.requestDream()
         var needRequest = false
         let dreams = RealmService.instance.getDreams().sorted { $0.index < $1.index }
-        print("PageVC getData dreams \(dreams)")
+//        print("PageVC getData dreams \(dreams)")
         if dreams.count != 3 {
             self.setData()
             self.requestDream()
@@ -123,7 +123,7 @@ class PageVC: UIViewController {
     }
     
     private func setData() {
-        print("pagevc setData self.currentDream \(self.currentDream)")
+//        print("pagevc setData self.currentDream \(self.currentDream)")
         let images = RealmService.instance.getImages()
         
 //        print("PageVC setData \(self.firstDream) \(self.secondDream) \(self.thirdDream)")
@@ -133,8 +133,8 @@ class PageVC: UIViewController {
         if let currentDream = self.currentDream {
             //self.navigationController?.navigationBar.topItem?.title = currentDream.topText
             self.setText(text: currentDream.mainText)
-            print("PageVC setData firstImage \(RealmService.instance.getImage(id: currentDream.first_fileId))")
-            print("PageVC setData secondImage \(RealmService.instance.getImage(id: currentDream.second_fileId))")
+//            print("PageVC setData firstImage \(RealmService.instance.getImage(id: currentDream.first_fileId))")
+//            print("PageVC setData secondImage \(RealmService.instance.getImage(id: currentDream.second_fileId))")
             if let firstImage = RealmService.instance.getImage(id: currentDream.first_fileId), let secondImage = RealmService.instance.getImage(id: currentDream.second_fileId) {
                 self.setImage(image: firstImage, imageView: self.topImageView, name: "top_image_\(currentDream.index).jpg")
                 self.setImage(image: secondImage, imageView: self.downImageView, name: "bottom_image_\(currentDream.index).jpg")

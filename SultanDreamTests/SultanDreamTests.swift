@@ -6,6 +6,7 @@
 //
 
 import XCTest
+
 @testable import SultanDream
 
 class SultanDreamTests: XCTestCase {
@@ -18,16 +19,39 @@ class SultanDreamTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+//    func testExample() throws {
+//        XCTAssertEqual(1, 1)
+//    }
+//
+//    func testPerformanceExample() throws {
+//        // This is an example of a performance test case.
+//        self.measure {
+//            // Put the code you want to measure the time of here.
+//        }
+//    }
+    
+    func testQwe() throws {
+        XCTAssertEqual(1, 1)
+    }
+    
+    func testQwefwefwef() throws {
+        XCTAssertEqual(14, 14)
+        //TextFieldValidationService
+    }
+    
+    func testTextFieldValidationServiceIsValidEmailFalse() throws {
+        let service = TextFieldValidationService()
+        let testField = UITextField()
+        testField.text = "qwrfvegw"
+        let isValid = service.isValidEmail(textField: testField)
+        XCTAssertFalse(isValid)
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testTextFieldValidationServiceIsValidEmailTrue() throws {
+        let service = TextFieldValidationService()
+        let testField = UITextField()
+        testField.text = "qwerty@qwerty.com"
+        let isValid = service.isValidEmail(textField: testField)
+        XCTAssertTrue(isValid)
     }
-
 }
